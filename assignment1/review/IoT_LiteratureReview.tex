@@ -1,0 +1,74 @@
+\documentclass[14]{article}
+
+% Used packages
+\usepackage{apacite}
+\usepackage[12pt]{moresize}
+%\usepackage[numbers,sort&compress]{natbib}
+\usepackage{blindtext}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[explicit,noindentafter]{titlesec}
+\usepackage[rightcaption]{sidecap}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{graphicx} %package to manage images
+\graphicspath{{images/}}
+
+
+\bibliographystyle{apacite}
+
+\titlespacing\section{1pt}{12pt plus 0pt minus 0pt}{6pt plus 0pt minus 0pt}
+\titlespacing\subsection{1pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{1pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\paragraph{1pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+% New commands
+\newcommand{\addsection}[3]{\addtocontents{toc}{\protect\contentsline{section}{\protect\numberline{#1}#2}{#3}}}
+\newcommand{\addsubsection}[3]{\addtocontents{toc}{\protect\contentsline{subsection}{\protect\numberline{#1}#2}{#3}}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.5\textwidth}\rlap{#1}}
+\newcommand{\Csh}{C{\lserif\#}}
+
+
+\begin{document}
+\author{\textbf{Faculty of Sciences and Bio-Engineering Sciences}\\[2\baselineskip]\newline\textbf{Arthur Chomé}}
+
+\date{ \LARGE Security within the Internet Of things: \break A Literature Review}
+\title{\vspace{-2cm}}%\underline{Everything is connected}}
+
+\maketitle\mbox{}\\
+
+%\section{Introduction}
+The Internet of Things is an emerging technology\cite{atzori2010internet} stemming from the increase in our environment of smart devices able to connect to other devices and generate and broadcast data to each other. It has grown to also encompass surrounding "things" of a human’s living space such as home appliances, machines, transportation, business storage, etc. It could offer opportunities to improve businesses' supply chain\cite{ben2019internet} by analysing the raw data streams to extract useful information. One of the most prominent requirements to realise the Internet of Things is security. This field of research includes data provenance, authentication, access control and secure communication. 
+\newline
+%\section{Aspects of Security}
+
+IoT's main characteristics\cite{oh2017security} are its heterogeneity, resource constraints and dynamic nature. Having a diverse range of connected devices means they individually have different used protocols\cite{sethi2017internet}, abstractions, performances and specifications with an absence of common security services. Its dynamic nature also brings difficulties in terms of key management and where to store them.
+
+%\subsection{Secure Communication}
+The dynamic nature of the Internet of Things adds challenges \cite{roman2011key} when generating keys and distributing them to nodes in the network. To encode data, one can go for a symmetric\cite{gomes2014internet} or asymmetric key encryption scheme. The choice depends on the situation at hand and the trade-offs to be made involving management of the limited device resources\cite{katagi2008lightweight} and the scalability of the IoT network\cite{gomes2014internet}.
+
+%\subsection{Authentication}
+Encryption prevents unauthorized third parties to access sent data. Before a secure communication can be established however, the sender must have a way to verify the identity of a network node before sending anything. Using certificate-based handshakes\cite{hummen2014delegation} is a possibility but it has been proven to be infeasible for a wide range of constrained device that comprise the Internet of Things. Researcher Rene Hummen from Aachen University therefore proposes 3 alternate design approaches\cite{hummen2013towards} to reduce the overheads of the DTLS handshake. One way in doing so involves coding a node's identity in certificates and using them to authorize communication between two parties. 
+A centralised approach involves using Registration Authorities\cite{liu2012authentication} to recognize network players, they are access points in which other nodes can pre-register as to be identified on the network later on. Aside from guaranteeing authentication, they serve as bookkeeper the access request information of each node. Another paper\cite{jan2014robust} appears to have developed a light-weight authentication protocol to manage devices' resources based on Liu's paper. 
+
+%\subsection{Data Provenance}
+When multiple devices interchange data in a network, one must be able to verify the integrity and correctness of data processed by the application. Researcher Muhammad Aman focuses on leveraging Physically Unclonable Functions \cite{aman2017secure} to uniquely identify devices within a network. These are 'digital fingerprints' based on a microprocessor's unique physical variations from production. Blockchain is a also a technique to be leveraged to ensure data provenance. Another of Aman's papers\cite{javaid2018blockpro} proposes the combination of a blockchain variant and these functions as to guarantee secure data provenance.
+Another way would be using a hash chain scheme\cite{suhail2018data} to encode provenance where the hash of data would be prolonged for every new node that the data passes allowing for a checksum to be made in the end. Furthermore, data provenance can be secured using a mutual agreement scheme\cite{rangwala2016mutual} between sender and receiver.
+
+%\subsection{Access Control}
+Certain resources ought to be used sparingly by authorised network nodes and this requires mechanisms to restrict access. One way to do it would be a centralised approach\cite{hernandez2013distributed} with one node filtering access requests based on the policies at hand. A centralised access controls scheme like this brings considerable drawbacks\cite{ouaddah2017towards} such a lowered scalability and a compromise in end-to-end security properties. An important researcher in the field of access control seems to be Aafaf Ouaddah from the Institute Mines-Telecom in Paris. He adapted blockchain\cite{ouaddah2016fairaccess} into a decentralized access control manager overcoming the problem of consensus reaching with distributed anonymous participants. Another paper\cite{ouaddah2017access} of Ouaddah proposes a capability-based access control scheme by giving tokens or keys to nodes that would grant them access to some restricted resources. 
+\newline
+
+%\subsection{Role-Specific Nodes}
+%A scheme in a distributed network is to assign certain tasks to nodes in the network. One such example are Registration Authorities\cite{liu2012authentication} that require new node to register at initialisation as to identify them unambiguously on the network. Another functionality would be as bookkeeper for access requests.
+%\section{Conclusion}
+
+Internet of Things is a promising technology but a lot its key requirements for success are not yet implemented\cite{borgia2014internet}. Ensuring security on such network is key to guarantee its usability. 
+
+\bibliographystyle{plainnat}
+\bibliography{bibliography}	
+\end{document}

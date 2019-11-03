@@ -1,0 +1,604 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Aman%
+, Chua%
+\BCBL {}\ \BBA {} Sikdar%
+}{%
+Aman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+aman2017secure}
+\APACinsertmetastar {%
+aman2017secure}%
+\begin{APACrefauthors}%
+Aman, M\BPBI N.%
+, Chua, K\BPBI C.%
+\BCBL {}\ \BBA {} Sikdar, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Secure data provenance for the internet of things}
+  {Secure data provenance for the internet of things}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 3rd ACM International Workshop on IoT
+  Privacy, Trust, and Security} {Proceedings of the 3rd acm international
+  workshop on iot privacy, trust, and security}\ (\BPGS\ 11--14).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Atzori%
+, Iera%
+\BCBL {}\ \BBA {} Morabito%
+}{%
+Atzori%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+atzori2010internet}
+\APACinsertmetastar {%
+atzori2010internet}%
+\begin{APACrefauthors}%
+Atzori, L.%
+, Iera, A.%
+\BCBL {}\ \BBA {} Morabito, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The internet of things: A survey} {The internet of
+  things: A survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer networks}{54}{15}{2787--2805}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ben-Daya%
+, Hassini%
+\BCBL {}\ \BBA {} Bahroun%
+}{%
+Ben-Daya%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+ben2019internet}
+\APACinsertmetastar {%
+ben2019internet}%
+\begin{APACrefauthors}%
+Ben-Daya, M.%
+, Hassini, E.%
+\BCBL {}\ \BBA {} Bahroun, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet of things and supply chain management: a
+  literature review} {Internet of things and supply chain management: a
+  literature review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Production
+  Research}{57}{15-16}{4719--4742}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Borgia%
+}{%
+Borgia%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+borgia2014internet}
+\APACinsertmetastar {%
+borgia2014internet}%
+\begin{APACrefauthors}%
+Borgia, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Internet of Things vision: Key features,
+  applications and open issues} {The internet of things vision: Key features,
+  applications and open issues}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Communications}{54}{}{1--31}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gomes%
+, da Rosa~Righi%
+\BCBL {}\ \BBA {} da Costa%
+}{%
+Gomes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+gomes2014internet}
+\APACinsertmetastar {%
+gomes2014internet}%
+\begin{APACrefauthors}%
+Gomes, M.%
+, da Rosa~Righi, R.%
+\BCBL {}\ \BBA {} da Costa, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet of things scalability: Analyzing the
+  bottlenecks and proposing alternatives} {Internet of things scalability:
+  Analyzing the bottlenecks and proposing alternatives}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 6th International Congress on Ultra Modern
+  Telecommunications and Control Systems and Workshops (ICUMT)} {2014 6th
+  international congress on ultra modern telecommunications and control systems
+  and workshops (icumt)}\ (\BPGS\ 269--276).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hern{\'a}ndez-Ramos%
+, Jara%
+, Marin%
+\BCBL {}\ \BBA {} Skarmeta%
+}{%
+Hern{\'a}ndez-Ramos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+hernandez2013distributed}
+\APACinsertmetastar {%
+hernandez2013distributed}%
+\begin{APACrefauthors}%
+Hern{\'a}ndez-Ramos, J\BPBI L.%
+, Jara, A\BPBI J.%
+, Marin, L.%
+\BCBL {}\ \BBA {} Skarmeta, A\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Distributed capability-based access control for the
+  internet of things} {Distributed capability-based access control for the
+  internet of things}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Internet Services and Information Security
+  (JISIS)}{3}{3/4}{1--16}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hummen%
+, Shafagh%
+, Raza%
+, Voig%
+\BCBL {}\ \BBA {} Wehrle%
+}{%
+Hummen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+hummen2014delegation}
+\APACinsertmetastar {%
+hummen2014delegation}%
+\begin{APACrefauthors}%
+Hummen, R.%
+, Shafagh, H.%
+, Raza, S.%
+, Voig, T.%
+\BCBL {}\ \BBA {} Wehrle, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Delegation-based Authentication and Authorization for
+  the IP-based Internet of Things} {Delegation-based authentication and
+  authorization for the ip-based internet of things}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 Eleventh Annual IEEE International Conference on
+  Sensing, Communication, and Networking (SECON)} {2014 eleventh annual ieee
+  international conference on sensing, communication, and networking (secon)}\
+  (\BPGS\ 284--292).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hummen%
+, Ziegeldorf%
+, Shafagh%
+, Raza%
+\BCBL {}\ \BBA {} Wehrle%
+}{%
+Hummen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+hummen2013towards}
+\APACinsertmetastar {%
+hummen2013towards}%
+\begin{APACrefauthors}%
+Hummen, R.%
+, Ziegeldorf, J\BPBI H.%
+, Shafagh, H.%
+, Raza, S.%
+\BCBL {}\ \BBA {} Wehrle, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards viable certificate-based authentication for the
+  internet of things} {Towards viable certificate-based authentication for the
+  internet of things}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2nd ACM workshop on Hot topics on
+  wireless network security and privacy} {Proceedings of the 2nd acm workshop
+  on hot topics on wireless network security and privacy}\ (\BPGS\ 37--42).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jan%
+, Nanda%
+, He%
+, Tan%
+\BCBL {}\ \BBA {} Liu%
+}{%
+Jan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+jan2014robust}
+\APACinsertmetastar {%
+jan2014robust}%
+\begin{APACrefauthors}%
+Jan, M\BPBI A.%
+, Nanda, P.%
+, He, X.%
+, Tan, Z.%
+\BCBL {}\ \BBA {} Liu, R\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A robust authentication scheme for observing resources
+  in the internet of things environment} {A robust authentication scheme for
+  observing resources in the internet of things environment}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 IEEE 13th International Conference on Trust,
+  Security and Privacy in Computing and Communications} {2014 ieee 13th
+  international conference on trust, security and privacy in computing and
+  communications}\ (\BPGS\ 205--211).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Javaid%
+, Aman%
+\BCBL {}\ \BBA {} Sikdar%
+}{%
+Javaid%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+javaid2018blockpro}
+\APACinsertmetastar {%
+javaid2018blockpro}%
+\begin{APACrefauthors}%
+Javaid, U.%
+, Aman, M\BPBI N.%
+\BCBL {}\ \BBA {} Sikdar, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {BlockPro: Blockchain based Data Provenance and Integrity
+  for Secure IoT Environments} {Blockpro: Blockchain based data provenance and
+  integrity for secure iot environments}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 1st Workshop on Blockchain-enabled
+  Networked Sensor Systems} {Proceedings of the 1st workshop on
+  blockchain-enabled networked sensor systems}\ (\BPGS\ 13--18).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Katagi%
+, Moriai%
+\BCBL {}\ \protect \BOthers {.}}{%
+Katagi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+katagi2008lightweight}
+\APACinsertmetastar {%
+katagi2008lightweight}%
+\begin{APACrefauthors}%
+Katagi, M.%
+, Moriai, S.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lightweight cryptography for the internet of things}
+  {Lightweight cryptography for the internet of things}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sony Corporation}{}{}{7--10}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Xiao%
+\BCBL {}\ \BBA {} Chen%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+liu2012authentication}
+\APACinsertmetastar {%
+liu2012authentication}%
+\begin{APACrefauthors}%
+Liu, J.%
+, Xiao, Y.%
+\BCBL {}\ \BBA {} Chen, C\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Authentication and access control in the internet of
+  things} {Authentication and access control in the internet of things}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2012 32nd International Conference on Distributed
+  Computing Systems Workshops} {2012 32nd international conference on
+  distributed computing systems workshops}\ (\BPGS\ 588--592).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Oh%
+\ \BBA {} Kim%
+}{%
+Oh%
+\ \BBA {} Kim%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+oh2017security}
+\APACinsertmetastar {%
+oh2017security}%
+\begin{APACrefauthors}%
+Oh, S\BHBI R.%
+\BCBT {}\ \BBA {} Kim, Y\BHBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Security requirements analysis for the IoT} {Security
+  requirements analysis for the iot}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2017 International Conference on Platform Technology and
+  Service (PlatCon)} {2017 international conference on platform technology and
+  service (platcon)}\ (\BPGS\ 1--6).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ouaddah%
+, Abou~Elkalam%
+\BCBL {}\ \BBA {} Ait~Ouahman%
+}{%
+Ouaddah%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+ouaddah2016fairaccess}
+\APACinsertmetastar {%
+ouaddah2016fairaccess}%
+\begin{APACrefauthors}%
+Ouaddah, A.%
+, Abou~Elkalam, A.%
+\BCBL {}\ \BBA {} Ait~Ouahman, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {FairAccess: a new Blockchain-based access control
+  framework for the Internet of Things} {Fairaccess: a new blockchain-based
+  access control framework for the internet of things}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Security and Communication
+  Networks}{9}{18}{5943--5964}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ouaddah%
+, Elkalam%
+\BCBL {}\ \BBA {} Ouahman%
+}{%
+Ouaddah%
+, Elkalam%
+\BCBL {}\ \BBA {} Ouahman%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+ouaddah2017towards}
+\APACinsertmetastar {%
+ouaddah2017towards}%
+\begin{APACrefauthors}%
+Ouaddah, A.%
+, Elkalam, A\BPBI A.%
+\BCBL {}\ \BBA {} Ouahman, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards a novel privacy-preserving access control model
+  based on blockchain technology in IoT} {Towards a novel privacy-preserving
+  access control model based on blockchain technology in iot}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Europe and MENA Cooperation Advances in Information and
+  Communication Technologies} {Europe and mena cooperation advances in
+  information and communication technologies}\ (\BPGS\ 523--533).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ouaddah%
+, Mousannif%
+, Elkalam%
+\BCBL {}\ \BBA {} Ouahman%
+}{%
+Ouaddah%
+, Mousannif%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+ouaddah2017access}
+\APACinsertmetastar {%
+ouaddah2017access}%
+\begin{APACrefauthors}%
+Ouaddah, A.%
+, Mousannif, H.%
+, Elkalam, A\BPBI A.%
+\BCBL {}\ \BBA {} Ouahman, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Access control in the Internet of Things: Big challenges
+  and new opportunities} {Access control in the internet of things: Big
+  challenges and new opportunities}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Networks}{112}{}{237--262}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rangwala%
+, Liang%
+, Peng%
+, Zou%
+\BCBL {}\ \BBA {} Li%
+}{%
+Rangwala%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+rangwala2016mutual}
+\APACinsertmetastar {%
+rangwala2016mutual}%
+\begin{APACrefauthors}%
+Rangwala, M.%
+, Liang, Z.%
+, Peng, W.%
+, Zou, X.%
+\BCBL {}\ \BBA {} Li, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A mutual agreement signature scheme for secure data
+  provenance} {A mutual agreement signature scheme for secure data
+  provenance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{environments}{13}{14}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roman%
+, Alcaraz%
+, Lopez%
+\BCBL {}\ \BBA {} Sklavos%
+}{%
+Roman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+roman2011key}
+\APACinsertmetastar {%
+roman2011key}%
+\begin{APACrefauthors}%
+Roman, R.%
+, Alcaraz, C.%
+, Lopez, J.%
+\BCBL {}\ \BBA {} Sklavos, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Key management systems for sensor networks in the
+  context of the Internet of Things} {Key management systems for sensor
+  networks in the context of the internet of things}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers \& Electrical Engineering}{37}{2}{147--159}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sethi%
+\ \BBA {} Sarangi%
+}{%
+Sethi%
+\ \BBA {} Sarangi%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+sethi2017internet}
+\APACinsertmetastar {%
+sethi2017internet}%
+\begin{APACrefauthors}%
+Sethi, P.%
+\BCBT {}\ \BBA {} Sarangi, S\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet of things: architectures, protocols, and
+  applications} {Internet of things: architectures, protocols, and
+  applications}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Electrical and Computer
+  Engineering}{2017}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Suhail%
+\ \protect \BOthers {.}}{%
+Suhail%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+suhail2018data}
+\APACinsertmetastar {%
+suhail2018data}%
+\begin{APACrefauthors}%
+Suhail, S.%
+, Hong, C\BPBI S.%
+, Lodhi, M\BPBI A.%
+, Zafar, F.%
+, Khan, A.%
+\BCBL {}\ \BBA {} Bashir, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data trustworthiness in iot} {Data trustworthiness in
+  iot}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2018 International Conference on Information Networking
+  (ICOIN)} {2018 international conference on information networking (icoin)}\
+  (\BPGS\ 414--419).
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

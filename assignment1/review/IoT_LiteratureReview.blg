@@ -1,0 +1,10 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: IoT_LiteratureReview.aux
+The style file: apacite.bst
+Illegal, another \bibstyle command---line 24 of file IoT_LiteratureReview.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
+Database file #1: bibliography.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+(There was 1 error message)
