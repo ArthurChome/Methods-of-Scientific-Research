@@ -86,23 +86,6 @@ Ben-Daya, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Blockchain - Wikipedia}}{%
-\APACcitebtitle {Blockchain - Wikipedia}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-BlockChainWikipedia}
-\APACinsertmetastar {%
-BlockChainWikipedia}%
-\APACrefbtitle {Blockchain - Wikipedia.} {Blockchain - wikipedia.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APAChowpublished {\url{https://en.wikipedia.org/wiki/Blockchain}}.
-\newblock
-\APACrefnote{Accessed on 11/06/2019}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Borgia%
 }{%
 Borgia%
@@ -226,9 +209,9 @@ Hummen%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2014}}%
 }]{%
-hummen2014delegation}
+hummen2014site}
 \APACinsertmetastar {%
-hummen2014delegation}%
+hummen2014site}%
 \begin{APACrefauthors}%
 Hummen, R.%
 , Shafagh, H.%
@@ -240,14 +223,13 @@ Hummen, R.%
 \newblock
 \APACrefYearMonthDay{2014}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Delegation-based Authentication and Authorization for
-  the IP-based Internet of Things} {Delegation-based authentication and
-  authorization for the ip-based internet of things}.{\BBCQ}
+\APACrefbtitle {Delegation-based Authentication and Authorization for the
+  IP-based Internet of Things.} {Delegation-based authentication and
+  authorization for the ip-based internet of things.}
 \newblock
-\BIn{} \APACrefbtitle {2014 Eleventh Annual IEEE International Conference on
-  Sensing, Communication, and Networking (SECON)} {2014 eleventh annual ieee
-  international conference on sensing, communication, and networking (secon)}\
-  (\BPGS\ 284--292).
+\APAChowpublished {\url{https://en.wikipedia.org/wiki/Blockchain}}.
+\newblock
+\APACrefnote{Retrieved on 11/06/2019}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
