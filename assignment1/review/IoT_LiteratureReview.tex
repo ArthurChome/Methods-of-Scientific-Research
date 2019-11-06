@@ -18,7 +18,6 @@
 \graphicspath{{images/}}
 
 
-\bibliographystyle{apacite}
 
 \titlespacing\section{1pt}{12pt plus 0pt minus 0pt}{6pt plus 0pt minus 0pt}
 \titlespacing\subsection{1pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
@@ -42,21 +41,21 @@
 \maketitle\mbox{}\\
 
 %\section{Introduction}
-The Internet of Things is an emerging technology\cite{atzori2010internet} stemming from the increase in our environment of smart devices able to connect to other devices and generate and broadcast data to each other. It has grown to also encompass surrounding "things" of a human’s living space such as home appliances, machines, transportation, business storage, etc. It could offer opportunities to improve businesses' supply chain\cite{ben2019internet} by analysing the raw data streams to extract useful information. One of the most prominent requirements to realise the Internet of Things is security. This field of research includes data provenance, authentication, access control and secure communication. 
+The Internet of Things is an emerging technology\cite{atzori2010internet} stemming from the increase in our environment of smart devices able to connect to other devices and generate and broadcast data to each other. It has grown to also encompass surrounding "things" of a human’s living space such as home appliances, machines, transportation, business storage, etc. Fortino's book\cite{fortino2014internet} offers a clear overview on the matter in terms of technology, middleware and applications. The Internet of Things has also seen use as a way of improving businesses' supply chain\cite{ben2019internet} by analysing the raw data streams to extract useful information. As to work properly, one of its most important requirements is security in terms of data provenance, authentication, access control and secure communication. With the Internet of Things becoming more and more present in every day life, security has become more important than ever. 
 \newline
 %\section{Aspects of Security}
 
 IoT's main characteristics\cite{oh2017security} are its heterogeneity, resource constraints and dynamic nature. Having a diverse range of connected devices means they individually have different used protocols\cite{sethi2017internet}, abstractions, performances and specifications with an absence of common security services. Its dynamic nature also brings difficulties in terms of key management and where to store them.
 
 %\subsection{Secure Communication}
-The dynamic nature of the Internet of Things adds challenges \cite{roman2011key} when generating keys and distributing them to nodes in the network. To encode data, one can go for a symmetric\cite{gomes2014internet} or asymmetric key encryption scheme. The choice depends on the situation at hand and the trade-offs to be made involving management of the limited device resources\cite{katagi2008lightweight} and the scalability of the IoT network\cite{gomes2014internet}.
+The dynamic nature of the Internet of Things adds challenges when generating keys\cite{roman2011key} and distributing them to nodes in the network. To encode data, one can go for a symmetric\cite{gomes2014internet} or asymmetric key encryption scheme. The choice depends on the situation at hand and the trade-offs to be made involving management of the limited device resources\cite{katagi2008lightweight} and the scalability of the IoT network\cite{gomes2014internet}.
 
 %\subsection{Authentication}
 Encryption prevents unauthorized third parties to access sent data. Before a secure communication can be established however, the sender must have a way to verify the identity of a network node before sending anything. Using certificate-based handshakes\cite{hummen2014delegation} is a possibility but it has been proven to be infeasible for a wide range of constrained device that comprise the Internet of Things. Researcher Rene Hummen from Aachen University therefore proposes 3 alternate design approaches\cite{hummen2013towards} to reduce the overheads of the DTLS handshake. One way in doing so involves coding a node's identity in certificates and using them to authorize communication between two parties. 
 A centralised approach involves using Registration Authorities\cite{liu2012authentication} to recognize network players, they are access points in which other nodes can pre-register as to be identified on the network later on. Aside from guaranteeing authentication, they serve as bookkeeper the access request information of each node. Another paper\cite{jan2014robust} appears to have developed a light-weight authentication protocol to manage devices' resources based on Liu's paper. 
 
 %\subsection{Data Provenance}
-When multiple devices interchange data in a network, one must be able to verify the integrity and correctness of data processed by the application. Researcher Muhammad Aman focuses on leveraging Physically Unclonable Functions \cite{aman2017secure} to uniquely identify devices within a network. These are 'digital fingerprints' based on a microprocessor's unique physical variations from production. Blockchain is a also a technique to be leveraged to ensure data provenance. Another of Aman's papers\cite{javaid2018blockpro} proposes the combination of a blockchain variant and these functions as to guarantee secure data provenance.
+When multiple devices interchange data in a network, one must be able to verify the integrity and correctness of data processed by the application. Researcher Muhammad Aman focuses on leveraging Physically Unclonable Functions \cite{aman2017secure} to uniquely identify devices within a network. These are 'digital fingerprints' based on a microprocessor's unique physical variations from production. Blockchain\cite{BlockChainWikipedia} is a also a technique to be leveraged to ensure data provenance. Another of Aman's papers\cite{javaid2018blockpro} proposes the combination of a blockchain variant and physically unclonable functions as to guarantee secure data provenance.
 Another way would be using a hash chain scheme\cite{suhail2018data} to encode provenance where the hash of data would be prolonged for every new node that the data passes allowing for a checksum to be made in the end. Furthermore, data provenance can be secured using a mutual agreement scheme\cite{rangwala2016mutual} between sender and receiver.
 
 %\subsection{Access Control}
@@ -67,8 +66,10 @@ Certain resources ought to be used sparingly by authorised network nodes and thi
 %A scheme in a distributed network is to assign certain tasks to nodes in the network. One such example are Registration Authorities\cite{liu2012authentication} that require new node to register at initialisation as to identify them unambiguously on the network. Another functionality would be as bookkeeper for access requests.
 %\section{Conclusion}
 
-Internet of Things is a promising technology but a lot its key requirements for success are not yet implemented\cite{borgia2014internet}. Ensuring security on such network is key to guarantee its usability. 
+The Internet of Things represents a promising technology with a lot of its key requirements yet to be successfully implemented\cite{borgia2014internet}. Ensuring security is a prerequisite to allow its proper functioning. 
 
-\bibliographystyle{plainnat}
+\newpage
+%\bibliographystyle{plainnat}
+\bibliographystyle{apacite}
 \bibliography{bibliography}	
 \end{document}
