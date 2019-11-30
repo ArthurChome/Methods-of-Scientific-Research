@@ -1,0 +1,3 @@
+"site1"	"site2"
+"buy"	0	1
+"no_buy"	200	199

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  10 NOV 2019 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  30 NOV 2019 21:22
 entering extended mode
-**./IoT_LiteratureReview.tex
-(IoT_LiteratureReview.tex
+**./StatisticsReport.tex
+(StatisticsReport.tex
 LaTeX2e <2018-12-01>
 ("C:\Users\chome\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -216,8 +216,8 @@ Package csquotes Info: ... none found.
 LaTeX Warning: Unused global option(s):
     [14].
 
-(IoT_LiteratureReview.aux)
-\openout1 = `IoT_LiteratureReview.aux'.
+(StatisticsReport.aux)
+\openout1 = `StatisticsReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -345,48 +345,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 44.
+<img/question1/Question1_Boxplot.PNG, id=1, 473.77pt x 386.94562pt>
+File: img/question1/Question1_Boxplot.PNG Graphic file (type png)
+<use img/question1/Question1_Boxplot.PNG>
+Package pdftex.def Info: img/question1/Question1_Boxplot.PNG  used on input lin
+e 53.
+(pdftex.def)             Requested size: 345.0pt x 281.78305pt.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+{C:/Users/chome/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/quest
+ion1/Question1_Boxplot.PNG>]
+<img/question1/question1_b.PNG, id=14, 417.56pt x 252.44313pt>
+File: img/question1/question1_b.PNG Graphic file (type png)
+<use img/question1/question1_b.PNG>
+Package pdftex.def Info: img/question1/question1_b.PNG  used on input line 71.
+(pdftex.def)             Requested size: 345.0pt x 208.58786pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
-
- []
-
-[1
-
-{C:/Users/chome/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (19.80627pt too wide) in paragraph at lines 61--63
-\OT1/cmr/m/n/10 Ouad-dah --from the In-sti-tute Mines-Telecom in Paris-- adapte
-d blockchain []Ouaddah,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-(IoT_LiteratureReview.bbl [2]) [3] (IoT_LiteratureReview.aux) ) 
+[2 <./img/question1/question1_b.PNG>] [3] (StatisticsReport.aux) ) 
 Here is how much of TeX's memory you used:
- 5447 strings out of 492946
- 83941 string characters out of 3126267
- 174695 words of memory out of 3000000
- 9277 multiletter control sequences out of 15000+200000
- 8101 words of font info for 29 fonts, out of 3000000 for 9000
+ 5406 strings out of 492946
+ 83023 string characters out of 3126267
+ 169140 words of memory out of 3000000
+ 9235 multiletter control sequences out of 15000+200000
+ 8063 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,38p,933b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/chome/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on IoT_LiteratureReview.pdf (3 pages, 91519 bytes).
+ 41i,8n,38p,827b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/cho
+me/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chome/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/chome/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chome/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on StatisticsReport.pdf (3 pages, 197210 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
