@@ -1,4 +1,4 @@
-"group"	"grade"
+"group"		"grade"
 "control"	15.6
 "control"	16
 "control"	17.4
