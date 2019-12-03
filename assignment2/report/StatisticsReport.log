@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  3 DEC 2019 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  4 DEC 2019 00:20
 entering extended mode
 **./StatisticsReport.tex
 (StatisticsReport.tex
@@ -428,45 +428,54 @@ File: img/question3/Power.PNG Graphic file (type png)
 Package pdftex.def Info: img/question3/Power.PNG  used on input line 201.
 (pdftex.def)             Requested size: 345.0pt x 107.43022pt.
  [8 <./img/question3/Welch.PNG> <./img/question3/Power.PNG>]
-<img/question4/question4_classification.PNG, id=57, 327.72438pt x 136.00812pt>
-File: img/question4/question4_classification.PNG Graphic file (type png)
-<use img/question4/question4_classification.PNG>
-Package pdftex.def Info: img/question4/question4_classification.PNG  used on in
-put line 221.
-(pdftex.def)             Requested size: 276.00105pt x 114.5428pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-[9 <./img/question4/question4_classification.PNG>]
-<img/question4/question4_variables.PNG, id=62, 518.43687pt x 112.92188pt>
-File: img/question4/question4_variables.PNG Graphic file (type png)
-<use img/question4/question4_variables.PNG>
-Package pdftex.def Info: img/question4/question4_variables.PNG  used on input l
-ine 232.
-(pdftex.def)             Requested size: 345.0pt x 75.14896pt.
- [10 <./img/question4/question4_variables.PNG>] (StatisticsReport.aux) ) 
+<img/question4/question4_model_code.PNG, id=57, 674.52pt x 98.86937pt>
+File: img/question4/question4_model_code.PNG Graphic file (type png)
+<use img/question4/question4_model_code.PNG>
+Package pdftex.def Info: img/question4/question4_model_code.PNG  used on input 
+line 218.
+(pdftex.def)             Requested size: 345.0pt x 50.57054pt.
+<img/question4/question4_model_coef.PNG, id=58, 448.67625pt x 96.36pt>
+File: img/question4/question4_model_coef.PNG Graphic file (type png)
+<use img/question4/question4_model_coef.PNG>
+Package pdftex.def Info: img/question4/question4_model_coef.PNG  used on input 
+line 225.
+(pdftex.def)             Requested size: 241.49895pt x 51.86452pt.
+<img/question4/question4_groups.PNG, id=59, 609.77812pt x 87.82813pt>
+File: img/question4/question4_groups.PNG Graphic file (type png)
+<use img/question4/question4_groups.PNG>
+Package pdftex.def Info: img/question4/question4_groups.PNG  used on input line
+ 235.
+(pdftex.def)             Requested size: 345.0pt x 49.69266pt.
+ [9 <./img/question4/question4_model_code.PNG> <./img/question4/question4_model
+_coef.PNG>]
+<img/question4/R_50_Percent_Chance.PNG, id=65, 603.25375pt x 95.35625pt>
+File: img/question4/R_50_Percent_Chance.PNG Graphic file (type png)
+<use img/question4/R_50_Percent_Chance.PNG>
+Package pdftex.def Info: img/question4/R_50_Percent_Chance.PNG  used on input l
+ine 249.
+(pdftex.def)             Requested size: 345.0pt x 54.53403pt.
+ [10 <./img/question4/question4_groups.PNG> <./img/question4/R_50_Percent_Chanc
+e.PNG>] (StatisticsReport.aux) ) 
 Here is how much of TeX's memory you used:
- 5468 strings out of 492946
- 84875 string characters out of 3126267
+ 5478 strings out of 492946
+ 85225 string characters out of 3126267
  170140 words of memory out of 3000000
- 9283 multiletter control sequences out of 15000+200000
+ 9291 multiletter control sequences out of 15000+200000
  8063 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,39p,827b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Use
-rs/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-0.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chome/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/chome/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chom
-e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on StatisticsReport.pdf (10 pages, 625542 bytes).
+<C:/Users/chome/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chome/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chome/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on StatisticsReport.pdf (10 pages, 660039 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

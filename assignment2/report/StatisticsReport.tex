@@ -41,13 +41,13 @@
 \maketitle
 
 \section{Introduction}
-As a second assignment for the course Methods for Scientific Research, we have to fulfil four statistical exercises. Further details of which can be found in the assignment document available on Canvas. Also provided were the datasets to be used for the exercises, based on our student number (0529279) the set number calculator\footnote{\protect\url{https://ai.vub.ac.be/~bart/statsnumbers.html}} assigned us with the sets 4, 1, 4, 3 for the four respective questions. All tests, charts and diagrams were generated using IBM's SPSS Statistics package version 23\footnote{\protect\url{https://en.wikipedia.org/wiki/SPSS}} released in 2015. 
+As a second assignment for the course Methods for Scientific Research, we have to fulfil four statistical exercises. Further details of which can be found in the assignment document available on Canvas. Also provided were the datasets to be used for the exercises, based on our student number (0529279) the set number calculator\footnote{\protect\url{https://ai.vub.ac.be/~bart/statsnumbers.html}} assigned us with the sets 4, 1, 4 and 3. We used IBM's SPSS Statistics package version 23\footnote{\protect\url{https://en.wikipedia.org/wiki/SPSS}} for the first 3 exercises but switched to R\footnote{\protect\url{https://www.r-project.org/}} for the 4th exercise out of curiosity. 
 
 \section{Question 1}
 The used dataset --set 4 for the first question-- was gathered by way of an experiment measuring the resonance frequencies of two types of crystal oscillators (variables x1 and x2) needed to provide timing information for high performance hardware. 
 
 \subsection{Diagram}
-The use of boxplots is a standardized way of displaying the distribution of data based on the five number summary: minimum, first quartile, median, third quartile, and maximum. Between the first and third quartile lies 50 percent of all data with the median being the middle value of the whole set. Between the maximum and minimum lies about 99.75 percent of all data.
+The use of boxplots is a standardized way of displaying the distribution of data based on the five number summary. Between the first and third quartile lies 50 percent of all data, between the maximum and minimum lies about 99.75 percent of all data.
 
 \begin{figure}[!htb]
 	\includegraphics[width=1.0\textwidth]{img/question1/Question1_Boxplot.PNG}
@@ -212,31 +212,48 @@ Having a 75 \% change of accepting the null hypothesis when it is false makes th
 As to increase our statistical power --hence the chance of distinguishing an actual event of one of change-- we have to change its sample size.
 
 \section{Question 4}
-We are using set number 3 for the fourth question as the data of the performance of two algorithms for deep learning. We have to perform regression analysis as to estimate relationships between a dependent variable --hence whether an algorithm was successful in performing a task-- and an independent variable: the number of parameters given to an algorithm.
-
-\subsection{Binary Logistic Regression}
-Logistic regression was performed to ascertain the effects of the number of parameters on whether or not the algorithms would solve the tasks. 
+We are using set number 3 for the fourth question as the data of the performance of two algorithms for deep learning. We have to perform binary logistic regression as to estimate relationships between a dependent variable (algorithm type and parameters) and binary independent variable (probability of success). To do so, we have to built up a model for the regression specifying a target variable (binary) and the covariate variables that decide the target's value.
 
 \begin{figure}[!htb]
-	\includegraphics[width=0.8\textwidth]{img/question4/question4_classification.PNG}
-	\captionsetup{width=0.8\textwidth}
+	\includegraphics[width=1.0\textwidth]{img/question4/question4_model_code.PNG}
+	\captionsetup{width=1.0\textwidth}
 	\centering 
-	\caption{Our model has shown to correctly classify 71.0 \% of cases making it fairly reliable. }
-\end{figure}\mbox{}\\
+	\caption{To set up our model, we have to load up the data .txt file, give it training data, and specify that our result success variable is in function of the parameters variable and type variable. }
+\end{figure}
+
+\begin{figure}[!htb]
+	\includegraphics[width=0.7\textwidth]{img/question4/question4_model_coef.PNG}
+	\captionsetup{width=1.0\textwidth}
+	\centering 
+	\caption{When looking at the p-values of the model, we can see the parameters variables is the most statistically significant for the outcome of the regression. }
+\end{figure}
+
+\subsection{Binary Logistic Regression}
+Logistic regression was performed to measure the effect of parameters on successfully performing tasks for both algorithm types independently. For this, we changed all parameter entries to the median of each respective group and calculated the probability of success for each group/algorithm with the new parameter values.
+
+\begin{figure}[!htb]
+	\includegraphics[width=1.0\textwidth]{img/question4/question4_groups.PNG}
+	\captionsetup{width=1.0\textwidth}
+	\centering 
+	\caption{We use the same model for both experiments}
+\end{figure}\mbox{}
 
 \newpage
 \paragraph{Conclusion}\mbox{}\\
-In our regression, the first algorithm is encoded as '0' and the second as '1' where we compare the first algorithm with the second algorithm. Underlying variables table in the equation shows that the parameters variable (p = 0,000) adds significantly to our prediction. It is also revealed that the second algorithm fairs 1.069 times better than the second algorithm.
+In our regression, we see that the probability for success for both algorithms when using the mean amount of parameters for each. Algorithm 1 has a probability of success of 0.4340497 and algorithm 2 of 0.4165832. This makes algorithm 2 slightly more performant.
+
+\subsection{50 \% Chance of Succeeding}
+The model that we built for the logistic regression can be used again to calculate the probability of success in one specific case. For this purpose, we can use the predict function that takes in a model, training data (hence, all the data) and its return value (in this case response).
 
 \begin{figure}[!htb]
-	\includegraphics[width=1.0\textwidth]{img/question4/question4_variables.PNG}
+	\includegraphics[width=1.0\textwidth]{img/question4/R_50_Percent_Chance.PNG}
 	\captionsetup{width=1.0\textwidth}
 	\centering 
-	%\caption{Our model has shown to correctly classify 71.0 \% of cases making it fairly reliable. }
+	\caption{Finding the right amount of parameters for the algorithms was a process of trial-and-error. }
 \end{figure}
-
-\subsection{Succeeding Chance}
-
+	
+\paragraph{Conclusion}\mbox{}\\
+After trying different inputs, the closest we could get to a 50 \% probability of success would be 18050 parameters for algorithm 1 and and 18274 parameters for algorithm 2.
 
 
 \end{document}
