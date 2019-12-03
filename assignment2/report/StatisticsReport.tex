@@ -211,9 +211,32 @@ Having a 75 \% change of accepting the null hypothesis when it is false makes th
 \subsection{Power of 0.8}
 As to increase our statistical power --hence the chance of distinguishing an actual event of one of change-- we have to change its sample size.
 
-
-
 \section{Question 4}
-We are using set number 3 for the fourth question as the data of the performance of two algorithms for deep learning. 
+We are using set number 3 for the fourth question as the data of the performance of two algorithms for deep learning. We have to perform regression analysis as to estimate relationships between a dependent variable --hence whether an algorithm was successful in performing a task-- and an independent variable: the number of parameters given to an algorithm.
+
+\subsection{Binary Logistic Regression}
+Logistic regression was performed to ascertain the effects of the number of parameters on whether or not the algorithms would solve the tasks. 
+
+\begin{figure}[!htb]
+	\includegraphics[width=0.8\textwidth]{img/question4/question4_classification.PNG}
+	\captionsetup{width=0.8\textwidth}
+	\centering 
+	\caption{Our model has shown to correctly classify 71.0 \% of cases making it fairly reliable. }
+\end{figure}\mbox{}\\
+
+\newpage
+\paragraph{Conclusion}\mbox{}\\
+In our regression, the first algorithm is encoded as '0' and the second as '1' where we compare the first algorithm with the second algorithm. Underlying variables table in the equation shows that the parameters variable (p = 0,000) adds significantly to our prediction. It is also revealed that the second algorithm fairs 1.069 times better than the second algorithm.
+
+\begin{figure}[!htb]
+	\includegraphics[width=1.0\textwidth]{img/question4/question4_variables.PNG}
+	\captionsetup{width=1.0\textwidth}
+	\centering 
+	%\caption{Our model has shown to correctly classify 71.0 \% of cases making it fairly reliable. }
+\end{figure}
+
+\subsection{Succeeding Chance}
+
+
 
 \end{document}
