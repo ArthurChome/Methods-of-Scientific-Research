@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  4 DEC 2019 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  22 DEC 2019 18:44
 entering extended mode
 **./StatisticsReport.tex
 (StatisticsReport.tex
@@ -346,136 +346,161 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 44.
+(Font)              <5> on input line 43.
 <img/question1/Question1_Boxplot.PNG, id=1, 473.77pt x 386.94562pt>
 File: img/question1/Question1_Boxplot.PNG Graphic file (type png)
 <use img/question1/Question1_Boxplot.PNG>
 Package pdftex.def Info: img/question1/Question1_Boxplot.PNG  used on input lin
-e 53.
+e 52.
 (pdftex.def)             Requested size: 345.0pt x 281.78305pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-[1
+ [1
 
 {C:/Users/chome/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/quest
 ion1/Question1_Boxplot.PNG>]
 <img/question1/question1_b.PNG, id=14, 417.56pt x 252.44313pt>
 File: img/question1/question1_b.PNG Graphic file (type png)
 <use img/question1/question1_b.PNG>
-Package pdftex.def Info: img/question1/question1_b.PNG  used on input line 71.
+Package pdftex.def Info: img/question1/question1_b.PNG  used on input line 68.
 (pdftex.def)             Requested size: 345.0pt x 208.58786pt.
- [2 <./img/question1/question1_b.PNG>]
+
+[2 <./img/question1/question1_b.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
 <img/question1/question1_x1_T.PNG, id=20, 440.14438pt x 193.72375pt>
 File: img/question1/question1_x1_T.PNG Graphic file (type png)
 <use img/question1/question1_x1_T.PNG>
 Package pdftex.def Info: img/question1/question1_x1_T.PNG  used on input line 9
-4.
+0.
 (pdftex.def)             Requested size: 345.0pt x 151.85176pt.
- [3 <./img/question1/question1_x1_T.PNG>]
+[3 <./img/question1/question1_x1_T.PNG>]
 <img/question1/question1_x2_T.PNG, id=25, 435.12563pt x 179.67125pt>
 File: img/question1/question1_x2_T.PNG Graphic file (type png)
 <use img/question1/question1_x2_T.PNG>
 Package pdftex.def Info: img/question1/question1_x2_T.PNG  used on input line 1
-07.
+03.
 (pdftex.def)             Requested size: 345.0pt x 142.46509pt.
- [4 <./img/question1/question1_x2_T.PNG>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+[4 <./img/question1/question1_x2_T.PNG>]
 <img/question2/question2_a.PNG, id=30, 244.41313pt x 123.46124pt>
 File: img/question2/question2_a.PNG Graphic file (type png)
 <use img/question2/question2_a.PNG>
-Package pdftex.def Info: img/question2/question2_a.PNG  used on input line 123.
+Package pdftex.def Info: img/question2/question2_a.PNG  used on input line 119.
 
 (pdftex.def)             Requested size: 241.49895pt x 121.9915pt.
-
-[5 <./img/question2/question2_a.PNG>]
+ [5 <./img/question2/question2_a.PNG>]
 <img/question2/Question2_Chi.PNG, id=35, 513.92pt x 221.32687pt>
 File: img/question2/Question2_Chi.PNG Graphic file (type png)
 <use img/question2/Question2_Chi.PNG>
-Package pdftex.def Info: img/question2/Question2_Chi.PNG  used on input line 14
-0.
+Package pdftex.def Info: img/question2/Question2_Chi.PNG  used on input line 13
+6.
 (pdftex.def)             Requested size: 345.0pt x 148.58203pt.
 <img/question2/Question2_b.PNG, id=36, 234.37563pt x 119.94812pt>
 File: img/question2/Question2_b.PNG Graphic file (type png)
 <use img/question2/Question2_b.PNG>
-Package pdftex.def Info: img/question2/Question2_b.PNG  used on input line 150.
+Package pdftex.def Info: img/question2/Question2_b.PNG  used on input line 146.
 
 (pdftex.def)             Requested size: 241.49895pt x 123.59369pt.
-<img/question2/Question2_b_chi.PNG, id=37, 444.15938pt x 195.73125pt>
+
+[6 <./img/question2/Question2_Chi.PNG> <./img/question2/Question2_b.PNG>]
+<img/question2/Question2_b_chi.PNG, id=42, 444.15938pt x 195.73125pt>
 File: img/question2/Question2_b_chi.PNG Graphic file (type png)
 <use img/question2/Question2_b_chi.PNG>
 Package pdftex.def Info: img/question2/Question2_b_chi.PNG  used on input line 
-163.
+159.
 (pdftex.def)             Requested size: 345.0pt x 152.0336pt.
- [6 <./img/question2/Question2_Chi.PNG> <./img/question2/Question2_b.PNG>]
 <img/question3/Levene.PNG, id=43, 308.65312pt x 154.5775pt>
 File: img/question3/Levene.PNG Graphic file (type png)
 <use img/question3/Levene.PNG>
-Package pdftex.def Info: img/question3/Levene.PNG  used on input line 179.
+Package pdftex.def Info: img/question3/Levene.PNG  used on input line 175.
 (pdftex.def)             Requested size: 276.00105pt x 138.2363pt.
- [7 <./img/question2/Question2_b_chi.PNG> <./img/question3/Levene.PNG>]
-<img/question3/Welch.PNG, id=50, 322.70563pt x 118.4425pt>
+<img/question3/Welch.PNG, id=44, 322.70563pt x 118.4425pt>
 File: img/question3/Welch.PNG Graphic file (type png)
 <use img/question3/Welch.PNG>
-Package pdftex.def Info: img/question3/Welch.PNG  used on input line 188.
+Package pdftex.def Info: img/question3/Welch.PNG  used on input line 184.
 (pdftex.def)             Requested size: 310.4979pt x 113.96736pt.
-<img/question3/Power.PNG, id=51, 617.30624pt x 192.21812pt>
+
+[7 <./img/question2/Question2_b_chi.PNG>]
+<img/question3/Power.PNG, id=50, 617.30624pt x 192.21812pt>
 File: img/question3/Power.PNG Graphic file (type png)
 <use img/question3/Power.PNG>
-Package pdftex.def Info: img/question3/Power.PNG  used on input line 201.
+Package pdftex.def Info: img/question3/Power.PNG  used on input line 197.
 (pdftex.def)             Requested size: 345.0pt x 107.43022pt.
- [8 <./img/question3/Welch.PNG> <./img/question3/Power.PNG>]
-<img/question4/question4_model_code.PNG, id=57, 674.52pt x 98.86937pt>
+ [8 <./img/question3/Levene.PNG> <./img/question3/Welch.PNG>] [9 <./img/questio
+n3/Power.PNG>]
+<img/question3/StandardDeviation.PNG, id=60, 263.48438pt x 86.3225pt>
+File: img/question3/StandardDeviation.PNG Graphic file (type png)
+<use img/question3/StandardDeviation.PNG>
+Package pdftex.def Info: img/question3/StandardDeviation.PNG  used on input lin
+e 220.
+(pdftex.def)             Requested size: 276.00105pt x 90.42789pt.
+<img/question3/PooledDeviation.PNG, id=61, 120.95187pt x 43.66313pt>
+File: img/question3/PooledDeviation.PNG Graphic file (type png)
+<use img/question3/PooledDeviation.PNG>
+Package pdftex.def Info: img/question3/PooledDeviation.PNG  used on input line 
+229.
+(pdftex.def)             Requested size: 137.9979pt x 49.82243pt.
+<img/question3/HomerD.PNG, id=62, 86.82437pt x 45.67062pt>
+File: img/question3/HomerD.PNG Graphic file (type png)
+<use img/question3/HomerD.PNG>
+Package pdftex.def Info: img/question3/HomerD.PNG  used on input line 240.
+(pdftex.def)             Requested size: 103.50105pt x 54.44487pt.
+ [10 <./img/question3/StandardDeviation.PNG> <./img/question3/PooledDeviation.P
+NG> <./img/question3/HomerD.PNG>]
+<img/question4/question4_model_code.PNG, id=69, 674.52pt x 98.86937pt>
 File: img/question4/question4_model_code.PNG Graphic file (type png)
 <use img/question4/question4_model_code.PNG>
 Package pdftex.def Info: img/question4/question4_model_code.PNG  used on input 
-line 218.
+line 254.
 (pdftex.def)             Requested size: 345.0pt x 50.57054pt.
-<img/question4/question4_model_coef.PNG, id=58, 448.67625pt x 96.36pt>
+<img/question4/question4_model_coef.PNG, id=70, 448.67625pt x 96.36pt>
 File: img/question4/question4_model_coef.PNG Graphic file (type png)
 <use img/question4/question4_model_coef.PNG>
 Package pdftex.def Info: img/question4/question4_model_coef.PNG  used on input 
-line 225.
+line 261.
 (pdftex.def)             Requested size: 241.49895pt x 51.86452pt.
-<img/question4/question4_groups.PNG, id=59, 609.77812pt x 87.82813pt>
+<img/question4/question4_groups.PNG, id=71, 609.77812pt x 87.82813pt>
 File: img/question4/question4_groups.PNG Graphic file (type png)
 <use img/question4/question4_groups.PNG>
 Package pdftex.def Info: img/question4/question4_groups.PNG  used on input line
- 235.
+ 271.
 (pdftex.def)             Requested size: 345.0pt x 49.69266pt.
- [9 <./img/question4/question4_model_code.PNG> <./img/question4/question4_model
-_coef.PNG>]
-<img/question4/R_50_Percent_Chance.PNG, id=65, 603.25375pt x 95.35625pt>
+ [11 <./img/question4/question4_model_code.PNG> <./img/question4/question4_mode
+l_coef.PNG> <./img/question4/question4_groups.PNG>]
+<img/question4/R_50_Percent_Chance.PNG, id=78, 603.25375pt x 95.35625pt>
 File: img/question4/R_50_Percent_Chance.PNG Graphic file (type png)
 <use img/question4/R_50_Percent_Chance.PNG>
 Package pdftex.def Info: img/question4/R_50_Percent_Chance.PNG  used on input l
-ine 249.
+ine 284.
 (pdftex.def)             Requested size: 345.0pt x 54.53403pt.
- [10 <./img/question4/question4_groups.PNG> <./img/question4/R_50_Percent_Chanc
-e.PNG>] (StatisticsReport.aux) ) 
+ [12 <./img/question4/R_50_Percent_Chance.PNG>] (StatisticsReport.aux) ) 
 Here is how much of TeX's memory you used:
- 5478 strings out of 492946
- 85225 string characters out of 3126267
+ 5493 strings out of 492946
+ 85700 string characters out of 3126267
  170140 words of memory out of 3000000
- 9291 multiletter control sequences out of 15000+200000
+ 9303 multiletter control sequences out of 15000+200000
  8063 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,39p,827b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/chome/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chome/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chome/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
-/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on StatisticsReport.pdf (10 pages, 660039 bytes).
+<C:/Use
+rs/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chome/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/chome/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chom
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on StatisticsReport.pdf (12 pages, 701413 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -36,18 +36,17 @@
 \author{\textbf{Faculty of Sciences and Bio-Engineering Sciences}\\[2\baselineskip]\newline\textbf{Arthur Chomé - 0529279}}
 
 \date{ \LARGE Assignment 2: Statistics}
-\title{\vspace{-8cm}}%\underline{Everything is connected}}
+\title{\vspace{-6cm}}%\underline{Everything is connected}}
 
 \maketitle
-
-\section{Introduction}
-As a second assignment for the course Methods for Scientific Research, we have to fulfil four statistical exercises. Further details of which can be found in the assignment document available on Canvas. Also provided were the datasets to be used for the exercises, based on our student number (0529279) the set number calculator\footnote{\protect\url{https://ai.vub.ac.be/~bart/statsnumbers.html}} assigned us with the sets 4, 1, 4 and 3. We used IBM's SPSS Statistics package version 23\footnote{\protect\url{https://en.wikipedia.org/wiki/SPSS}} for the first 3 exercises but switched to R\footnote{\protect\url{https://www.r-project.org/}} for the 4th exercise out of curiosity. 
-
 \section{Question 1}
+Given our student number 0529279 and the online calculator\footnote{\protect\url{https://ai.vub.ac.be/~bart/statsnumbers.html}}, were assigned the sets 4, 1, 4 and 3. We used IBM's SPSS Statistics package version 23\footnote{\protect\url{https://en.wikipedia.org/wiki/SPSS}} for the first 3 exercises and R\footnote{\protect\url{https://www.r-project.org/}} for the question 4. 
+\newline
 The used dataset --set 4 for the first question-- was gathered by way of an experiment measuring the resonance frequencies of two types of crystal oscillators (variables x1 and x2) needed to provide timing information for high performance hardware. 
 
-\subsection{Diagram}
-The use of boxplots is a standardized way of displaying the distribution of data based on the five number summary. Between the first and third quartile lies 50 percent of all data, between the maximum and minimum lies about 99.75 percent of all data.
+\subsection{Make an appropriate plot to show how the data are distributed. Explain why you used this type of plot (2+2pts)}
+The use of boxplots is a standardized way of displaying the distribution of data based on the five number summary. 
+%Between the first and third quartile lies 50 percent of all data, between the maximum and minimum lies about 99.75 percent of all data.
 
 \begin{figure}[!htb]
 	\includegraphics[width=1.0\textwidth]{img/question1/Question1_Boxplot.PNG}
@@ -56,13 +55,11 @@ The use of boxplots is a standardized way of displaying the distribution of data
 	%\caption{Given boxplots show that both variables have an evenly distributed range. Dataset x1 however has a wider distribution of its data with the maximum and minimum of the data being further away from the median than in dataset x2. } 
 \end{figure}
 \mbox{}\\ 
-
-\paragraph{Explanation}\mbox{}\newline
-Datasets that have a normal distribution have symmetrical boxplots with the means being in the center. This is clearly the case for both datasets. Set x1 however has a wider distribution of its data with the maximum and minimum of the data being further away from the median than in dataset x2. 
+For boxplots, between the first and third quartile lies 50 percent of all data and between the maximum and minimum lies about 99.75 percent of all data. Datasets that have a normal distribution have symmetrical boxplots with the means being in the center. This is clearly the case for both datasets. Set x1 however has a wider distribution of its data with the maximum and minimum of the data being further away from the median than in dataset x2. 
 \newline
 The use of boxplots is a standardized way of displaying the distribution of data based on the five number summary: minimum, first quartile, median, third quartile, and maximum. Using boxplots gives us a simple way of detecting symmetry and distribution of datasets and comparing them between each other. 
 
-\subsection{Welch's T-test}
+\subsection{Test whether the resonance frequencies of the two types could be identical (2 pts.) }
 Based on the experiment's description, we want to see if the same variable applied on two different populations (e.g. different groups of oscillator crystals) makes for a difference of the means of variables. Because the variance of both datasets differs significantly, a normal T-test would not be reliable in doing so. 
 \newline
 This is why we settle for Welch's T-test because it is robust even when the sample size or the variance is unequal. In this case, an independent T-test is the best option. Our null hypothesis in this case is that the means of both data collections do not differ. 
@@ -78,16 +75,15 @@ This is why we settle for Welch's T-test because it is robust even when the samp
 For this T-test, our null hypothesis is that no significant difference in means exists between the datasets x1 and x2 of the oscillator crystals. The alternative would be that a significant difference in means exists between the two. All hypothesis tests make use of a p-value\footnote{\protect\url{https://en.wikipedia.org/wiki/P-value}} to weigh the strength of the evidence. If the value is smaller than 0.05, we say there is strong evidence against the null hypothesis so it gets rejected.
 
 \paragraph{Conclusion}\mbox{}\\
-Because the p-value in this case is greater than 0.05 being 0.222, we cannot conclude that a significant difference exists and we accept our nullhypothesis: there is no significant difference in the means of both datasets.
+Because the p-value in this case is greater than 0.05 being 0.222, we cannot conclude that a significant difference exists and we accept our nullhypothesis: there is no significant difference in the means of both datasets.\\
 
-
-\subsection{One Sample T-test}
+\subsection{Also test whether they are different from the target frequency of 536 870 912 Hz. Explain why you used this test. (2 pts.)}
 This test is used to see whether a dataset's mean is equal to a given average value. It can only be applied on a random sample with a normal distribution with the variance being --optionally-- unknown. Previous boxplots show our datasets to be normally distributed, we assume them to be randome samples.
 
-\subsubsection{Null \& Alternative Hypothesis}%\mbox{}\\
+\paragraph{Null \& Alternative Hypothesis}\mbox{}\\
 Our null hypothesis here is that --for both crystal x1 and x2-- their mean does not differ significantly from the average target frequency of 536 870 912 Hz. If our p-value is smaller than 0.05, we would reject the null hypothesis and accept the alternative hypothesis: the difference is significant.
 
-\subsubsection{T-test Dataset x1}
+\paragraph{T-test Dataset x1}\mbox{}\\
 After executing the T-test on dataset x1 of the crystal oscillators, we get the following tables. Our null hypothesis is that there is no significant difference between dataset x1's mean and given dataset average.
 
 \begin{figure}[!htb]
@@ -100,7 +96,7 @@ After executing the T-test on dataset x1 of the crystal oscillators, we get the 
 Because the p-value 0.367 is bigger than 0.05 we conclude there is no significant evidence against our null hypothesis and accept our claim that x1's mean is equal to 536 870 912 Hz.
 
 
-\subsubsection{T-test Dataset x2}
+\paragraph{T-test Dataset x2}\mbox{}\\
 After executing the T-test on dataset x2 of the crystal oscillators, we get the following tables. Our null hypothesis is that there is no significant difference between dataset x2's mean and given the given average.
 
 \begin{figure}[!htb]
@@ -110,9 +106,9 @@ After executing the T-test on dataset x2 of the crystal oscillators, we get the 
 \end{figure}
 
 \paragraph{Conclusion}\mbox{}\\
-Because the p-value 0.324 is bigger than 0.05 we conclude there is no significant evidence against our null hypothesis and accept our claim that x2's mean does not differ significantly from 536 870 912 Hz.
+Because the p-value 0.324 is bigger than 0.05 we conclude there is no significant evidence against our null hypothesis and accept our claim that x2's mean does not differ significantly from 536 870 912 Hz.\\
 
-\subsection{Crystal Reliability}
+\subsection{Would you trust these crystals in your application, and why (not)? (2 pts.)}
 Because both dataset means do not differ significantly, are normally distributed and don't differ significantly from the average 536 870 912 Hz, we can trust both crystal types x1 and x2. 
 
 \newpage
@@ -126,8 +122,8 @@ We were assigned set 1 for this question, the data represents the number of time
 	\caption{The data seems to be a contigency table with the row representing the number of times whether something got bought or not in the two sites. } 
 \end{figure}
 
-\subsection{Fisher's Exact Test (set A)}
-Because our site data clearly represents a contingency table, we could opt to use either Fisher's Exact Test or Pearson's Chi-Squared Test. However, Fisher's test is more appropriate for small sample size and because the size of our test data (400 site visitors) is fairly low, we opt for Pearson Chi-Squared Test.
+\subsection{Do an appropriate test to see whether these data indicate a difference between the two sites. Explain why you used this test and give the effect size. (2+1+2 pts.)}
+Because dataset A of our sites clearly represents a contingency table, we could opt to use either Fisher's Exact Test or Pearson's Chi-Squared Test. However, Fisher's test is more appropriate for small sample size and because the size of our test data (400 site visitors) is fairly low, we opt for Pearson Chi-Squared Test.
 
 \paragraph{Null \& Alternative Hypothesis}\mbox{}\\
 For this experiment, our null hypothesis is that there is no significant difference in buying behavior of the two sites. The alternative would be that there is significant difference between the two.
@@ -143,7 +139,7 @@ For both the one-sided and two-sided variant of Fisher's Exact Test, we get p-va
 	%\caption{} 
 \end{figure}
 
-\subsection{Chi-Squared Test (set B)}
+\subsection{The files whose name ends in b contain data from a longer run (5000 visits) of the experiment. Do an appropriate test to see whether these data indicate a difference between the two sites. Explain why you used this test and give the effect size. (1+1+1 pts)}
 For set B, we have data of about 500 site visitors. Because we have a bigger sample size than for set B, we now opt to use the non-parametric chi-squared test.
 
 \begin{figure}[!htb]
@@ -166,14 +162,14 @@ We can see that our significance level (p-value) when performing the Pearson Chi
 	%\caption{0,00 represents the times a site got visited and nothing got bought. 1,00 is the value for when a site got visited and something got bought.  } 
 \end{figure}
 
-\subsection{Importance of Sample Size}
+\subsection{What did this teach you about the importance of sample size (a.k.a. "big data")? (2 pts)}
 Sample size is directly related to a statistic's margin of error, or how accurate a statistic can be calculated to be. The bigger the sample size, the less chance there is to wrongfully accept the null hypothesis. 
 
 \section{Question 3}
 We are using set number 4 for the fourth question. It deals with the grade difference of a group of students that followed remedial lectures and a control group who did not.
 
-\subsection{Welch's T-Test}
-If the variances between the datasets would not differ significantly, we could have opted for a normal independent t-test. Because Levene's test for the equality of variances has a p-value of less than 0.05 (being 0.014), we conclude that both samples their variances differ significantly. Welch's test is a better alternative being robust for independent samples with different variances.
+\subsection{Investigate whether the remedial lectures had any effect, and explain what you did and why you did it (2+2 pts.)}
+If the variances between the datasets would not differ significantly, we could have opted for a normal independent T-test. Because Levene's test for the equality of variances has a p-value of less than 0.05 (being 0.014), we conclude that both samples their variances differ significantly. Welch's test is a better alternative being robust for independent samples with different variances.
 
 \begin{figure}[!htb]
 	\includegraphics[width=0.8\textwidth]{img/question3/Levene.PNG}
@@ -193,7 +189,7 @@ Our null hypothesis here is that --for both groups-- the difference in study per
 \subsubsection{Conclusion}
 Because Welch's test has a p-value of 0.198 (greater than 0.05), we accept the null hypothesis that the means of both dataset are equal. 
 
-\subsection{Statistical Power}
+\subsection{What was the power of this experiment? What does this mean, and are you happy with this (and why)? (2+1 pts)}
 When it comes to hypothesis testing, we can make type I and type II errors. Type I errors occur when we would reject the null hypothesis when it is in fact true, type II errors occur when we would accept the null hypothesis when it is false.
 The power of a test is the probability of rejecting the null hypothesis, given it is false. It depends on several factors including the choice of Alpha and the sample size.
 
@@ -208,8 +204,48 @@ Our total sample size for this experiment is of 50. With with a p-value of 0.196
 \newline 
 Having a 75 \% change of accepting the null hypothesis when it is false makes the experiment very unreliable. We must enlarge the sample size to get more reliable results.
 
-\subsection{Power of 0.8}
-As to increase our statistical power --hence the chance of distinguishing an actual event of one of change-- we have to change its sample size.
+\subsection{How large would the groups need to be to achieve power 0.8? Explain. (2+1 pts)}
+For this experiment, we can use Cohen's d (= effect size) --expected difference between the means of the target values between the experimental group and the control group-- as to determine the sample size using the power tables.
+\newline 
+The variables at work here are the power level, the means of the control and experiment group, the pooled standard deviation of the 2 groups and our alternative hypothesis.
+
+\subsubsection{Significance, Power level \& Alternative Hypothesis}
+These parameters for the sample size are the same for both the 2 groups of students. As is common practice in statistics, an experiment's significance level --chance of a type I error-- is set at 0.05 which is the significance we will go for. As was specified in the description, our power level is of 0.8 (80 \%). \\
+For our null hypothesis, we agree that there is no difference between the means of the two groups. For our alternative hypothesis, we will go for the two-sided approach since this is the default used in Statistics. Whether we would go for a one or two-sided alternative hypothesis affects which table we would like to use.
+\newpage
+\subsubsection{Medians and Pooled Standard Deviation}
+The inter-individual variability is the variation among the experimental subjects, expressed as the standard deviation. We have to calculate the standard deviation for both groups.
+
+\begin{figure}[!htb]
+	\includegraphics[width=0.8\textwidth]{img/question3/StandardDeviation.PNG}
+	\captionsetup{width=1.0\textwidth}
+	\centering 
+	\caption{We can see that the control group has a standard deviation of 0.9347 and the experimental group a standard deviation of 0.665. }
+\end{figure}
+
+\paragraph{Pooled Deviation}\mbox{}\\
+A problem with Cohen's D is that it is supposed to be applied to 2 groups that have the same standard deviation which is not the case here. In this case, we need to take the average of the standard deviations using following formula:
+\begin{figure}[!htb]
+	\includegraphics[width=0.4\textwidth]{img/question3/PooledDeviation.PNG}
+	\captionsetup{width=1.0\textwidth}
+	\centering 
+\end{figure}\\
+This gives a pooled deviation equal to: 0.8111.
+
+
+\subsubsection{Cohen's D}
+Using the means of 2 groups and the pooled deviation, we can compute Cohen's D and compare the results with a power table for a 2-sided alternative hypothesis.
+We use following formula:
+\begin{figure}[!htb]
+	\includegraphics[width=0.3\textwidth]{img/question3/HomerD.PNG}
+	\captionsetup{width=1.0\textwidth}
+	\centering 
+\end{figure}\\
+This gives the following result: 0.4291.
+
+\subsubsection{Conclusion}
+After searching the corresponding number in a power table with power 0.8 with a two-tailed alternative hypothesis and significance of 0.05, we need a sample size of 99 participants.
+
 
 \section{Question 4}
 We are using set number 3 for the fourth question as the data of the performance of two algorithms for deep learning. We have to perform binary logistic regression as to estimate relationships between a dependent variable (algorithm type and parameters) and binary independent variable (probability of success). To do so, we have to built up a model for the regression specifying a target variable (binary) and the covariate variables that decide the target's value.
@@ -228,8 +264,8 @@ We are using set number 3 for the fourth question as the data of the performance
 	\caption{When looking at the p-values of the model, we can see the parameters variables is the most statistically significant for the outcome of the regression. }
 \end{figure}
 
-\subsection{Binary Logistic Regression}
-Logistic regression was performed to measure the effect of parameters on successfully performing tasks for both algorithm types independently. For this, we changed all parameter entries to the median of each respective group and calculated the probability of success for each group/algorithm with the new parameter values.
+\subsection{Can you figure out whether one of the algorithms is better, controlling for the number of parameters? Explain how you determined this (3+3 pts).}
+Binary Logistic regression was performed to measure the effect of parameters on successfully performing tasks for both algorithm types independently. For this, we changed all parameter entries to the median of each respective group and calculated the probability of success for each group/algorithm with the new parameter values.
 
 \begin{figure}[!htb]
 	\includegraphics[width=1.0\textwidth]{img/question4/question4_groups.PNG}
@@ -238,11 +274,10 @@ Logistic regression was performed to measure the effect of parameters on success
 	\caption{We use the same model for both experiments}
 \end{figure}\mbox{}
 
-\newpage
 \paragraph{Conclusion}\mbox{}\\
 In our regression, we see that the probability for success for both algorithms when using the mean amount of parameters for each. Algorithm 1 has a probability of success of 0.4340497 and algorithm 2 of 0.4165832. This makes algorithm 2 slightly more performant.
 
-\subsection{50 \% Chance of Succeeding}
+\subsection{At which number of parameters does each of the algorithms have a 50 \% chance of succeeding? Explain how you calculated this. (2+2 pts).}
 The model that we built for the logistic regression can be used again to calculate the probability of success in one specific case. For this purpose, we can use the predict function that takes in a model, training data (hence, all the data) and its return value (in this case response).
 
 \begin{figure}[!htb]

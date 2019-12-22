@@ -12,8 +12,6 @@ question4$type <- as.numeric(question4$type)
 question4$type <- as.factor(question4$type)
 train = question4[sample(2, nrow(question4), replace = T, prob = c(1.0, 0.1))==1,]
 # Fit the model: question4 is the training data.
-#mymodel = glm(success ~ type + parameters, data = train, family = 'binomial')
-#Create new model
 mymodel = glm(success ~ type + parameters, data = train, family = 'binomial')
 
 summary(mymodel)
