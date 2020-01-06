@@ -1,0 +1,55 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Dandekar%
+, Goel%
+\BCBL {}\ \BBA {} Lee%
+}{%
+Dandekar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+dandekar2013biased}
+\APACinsertmetastar {%
+dandekar2013biased}%
+\begin{APACrefauthors}%
+Dandekar, P.%
+, Goel, A.%
+\BCBL {}\ \BBA {} Lee, D\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Biased assimilation, homophily, and the dynamics of
+  polarization} {Biased assimilation, homophily, and the dynamics of
+  polarization}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{110}{15}{5791--5796}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DeGroot%
+}{%
+DeGroot%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+degroot1974reaching}
+\APACinsertmetastar {%
+degroot1974reaching}%
+\begin{APACrefauthors}%
+DeGroot, M\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reaching a consensus} {Reaching a consensus}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Statistical
+  Association}{69}{345}{118--121}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
