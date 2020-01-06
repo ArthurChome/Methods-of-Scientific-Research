@@ -52,4 +52,90 @@ DeGroot, M\BPBI H.%
   Association}{69}{345}{118--121}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Lempel%
+\ \BBA {} Moran%
+}{%
+Lempel%
+\ \BBA {} Moran%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+lempel2001salsa}
+\APACinsertmetastar {%
+lempel2001salsa}%
+\begin{APACrefauthors}%
+Lempel, R.%
+\BCBT {}\ \BBA {} Moran, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SALSA: the stochastic approach for link-structure
+  analysis} {Salsa: the stochastic approach for link-structure
+  analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Transactions on Information Systems
+  (TOIS)}{19}{2}{131--160}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Linden%
+, Smith%
+\BCBL {}\ \BBA {} York%
+}{%
+Linden%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+linden2003amazon}
+\APACinsertmetastar {%
+linden2003amazon}%
+\begin{APACrefauthors}%
+Linden, G.%
+, Smith, B.%
+\BCBL {}\ \BBA {} York, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Amazon. com recommendations: Item-to-item collaborative
+  filtering} {Amazon. com recommendations: Item-to-item collaborative
+  filtering}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Internet computing}{}{1}{76--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Page%
+, Brin%
+, Motwani%
+\BCBL {}\ \BBA {} Winograd%
+}{%
+Page%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1999}}%
+}]{%
+page1999pagerank}
+\APACinsertmetastar {%
+page1999pagerank}%
+\begin{APACrefauthors}%
+Page, L.%
+, Brin, S.%
+, Motwani, R.%
+\BCBL {}\ \BBA {} Winograd, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+\APACrefbtitle {The PageRank citation ranking: Bringing order to the web.} {The
+  pagerank citation ranking: Bringing order to the web.}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{Stanford InfoLab}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
