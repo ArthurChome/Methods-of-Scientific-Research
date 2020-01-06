@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  6 JAN 2020 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  6 JAN 2020 14:36
 entering extended mode
 **./review.tex
 (review.tex
@@ -345,41 +345,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 76.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 76.
-
-Overfull \hbox (103.80646pt too wide) in paragraph at lines 78--78
-[][]\OT1/cmtt/m/n/8 https://www.khanacademy.org/computing/computer-science/algo
-rithms/asymptotic-notation/a/big-o-notation| 
- []
-
-[1
+ [1
 
 {C:/Users/chome/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(review.bbl) [2] (review.aux) ) 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 69.
+ (review.bbl [2]) [3] (review.aux) ) 
 Here is how much of TeX's memory you used:
- 5410 strings out of 492946
- 82976 string characters out of 3126267
- 173653 words of memory out of 3000000
- 9239 multiletter control sequences out of 15000+200000
- 8409 words of font info for 30 fonts, out of 3000000 for 9000
+ 5407 strings out of 492946
+ 82939 string characters out of 3126267
+ 172653 words of memory out of 3000000
+ 9237 multiletter control sequences out of 15000+200000
+ 8101 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,38p,817b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/chome/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chome/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chome/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
-chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
-b><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr6.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/chome/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on review.pdf (2 pages, 106395 bytes).
+<C:/Users/chome/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chome/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chome/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Us
+ers/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on review.pdf (3 pages, 95286 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

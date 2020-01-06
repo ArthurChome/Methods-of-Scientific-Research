@@ -48,18 +48,27 @@ This phenomenon is brough about by social factors such as homophily --interactio
 After a brief introduction to the issue of polarisation and their contributing factors, it mentions DeGroot's mathematical model\cite{degroot1974reaching} used for the explanation of divergence in opinions. It criticizes the built model for not including biased assimilation all the while proposing an improvement on the model that includes this social factor. From the start, the paper informed us of the mathematical capabilities for consensus reaching and its applications such as measuring the degree of disagreement within a group. It's a surprise to read that even the most complex social problems can be mathematically expressed as models and explained using graph theory.
 
 \section{Opinion}
-The paper's subject is interesting --trying to mathematically explain the social problem of polarisation-- but it lacks the necessary touch to make it attractive for members of both categories for a number of reasons. Its introduction might deter pure mathematical researchers of reading further but the content following upon it is too advanced for the average social scientist to follow.
-
-\subsection{Readability}
+The paper's subject is interesting --trying to mathematically explain the social problem of polarisation-- but it lacks the necessary touch to make it attractive for members of any two categories for a number of reasons. Its introduction might deter pure mathematical researchers of reading further but the content following upon it is too advanced for the average social scientist to follow.
+\newline
 If we were only to base ourselves on the introduction of the paper --its writing style and title-- we might convince ourselves that it was written for a target audience with no explicit mathematical background such as political scientists or psychologists. However, the paper shifts directly towards a mathematical focus introducing rather complex notions about graph theory and models. It also lists pure definitions to the reader while not providing any additional explanations or figures to clarify the context. It demands a certain level of expertise of the reader not previously made clear from the introduction. 
-
-\subsection{Structure}
+\newline
 Another fault of the paper is its lack of a clear structure. Though it provides an introduction, the separation between related work, experiments and conclusion is not sufficient. When reading the paper, I had trouble distinguishing previous work from the paper's contribution. It also does not help that paragraphs and definitions in the paper have the same heading making for more confusion.
+\newline
+The model uses three recommender algorithms as to calculate the relative disagreement between members of a node graph: SALSA\cite{lempel2001salsa}, Personalized PageRank\cite{page1999pagerank}, and item-based collaborative filtering\cite{linden2003amazon} respectively. Though they are properly referred, they only provide mathematical formulas to explain the workings of each algorithm. 
 
-\subsection{Algorithm Description \& Comparison}
-The model uses three recommender algorithms as to calculate the relative disagreement between members of a node graph: SALSA\cite{lempel2001salsa}, Personalized PageRank\cite{page1999pagerank}, and item-based collaborative filtering\cite{linden2003amazon} respectively. Though they are properly referred, they only provide mathematical formulas to explain the workings of each algorithm. As to increase readibility, the inclusion of pseudocode\footnote{\protect\url{https://en.wikipedia.org/wiki/Pseudocode}} for each algorithm should not be missed providing a high-level description of each of their operation.
+\section{Improvements}
+For the above critique on the paper, we have some suggestions for improvements to be made. This would in turn increase the relative attractiveness of the paper increasing its influence. The following suggestions are focusing on the writing the style, the paper's structure and the discussion of algorithms.
+
+\subsection{Content}
+The paper's introduction focuses too much on the terminology and concepts of polarization. It is misleading to be afterwards discussing the paper's extension of DeGroot's mathematical consensus model for the explanation of divergence in opinions. A suggestion is to shorten the paper's introduction on polarization and focus more on the mathematical model they developed for it. The title of the paper should be reworked, it does not stick with the actual content of the paper.
+
+\subsection{Writing Style}
+Though the paper has a good introduction on the topic and clearly states its contributions, everything after it is too formulaic and dry for people without a decent knowledge on graphy theory to understand. I suggest to remove the definitions in the paper in exchange for a more high-level, easy-to-understand explanation all the while referring to papers citing these definitions. The use of figures should not be excluded to 
+
+\subsection{Algorithm Comparison}
+The inclusion of pseudocode\footnote{\protect\url{https://en.wikipedia.org/wiki/Pseudocode}} for each algorithm should not be missed. It provides a high-level description of each of their operation.
 \newline 
-Although all three algorithms operate by ways of random walks on a node graph G, there is a performance comparison to be made. One of the biggest concerns in Computer Science is to perform work as efficient as possible without wasting resources. This is why a table of the best, worst and average case performance of each algorithm should be provided in Big-O notation\footnote{\protect\url{https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation}}
+Although all three algorithms operate by ways of random walks on a node graph G, there is a performance comparison to be made. One of the biggest concerns in Computer Science is to perform work as efficient as possible without wasting resources. This is why a table of the best, worst and average case performance of each algorithm should be provided in Big-O notation\footnote{\protect\url{https://en.wikipedia.org/wiki/Big\_O\_notation}}
 
 %From the perspective of a Computer Science student, the algorithms referenced in this paper are not clearly explained in terms of workings or application. Adding pseudocode or other code snippets could alleviate this instead of using the pure mathematical formulas. Another problem
 
@@ -81,15 +90,15 @@ Although all three algorithms operate by ways of random walks on a node graph G,
 
 
 
-\subsection{Graph Theory}
+%\subsection{Graph Theory}
 
-\paragraph{Strengths}
+%\paragraph{Strengths}
 
-\paragraph{Weaknesses}
+%\paragraph{Weaknesses}
 
-\section{Improvements}
+%\section{Improvements}
 
-\section{Conclusion}
+%\section{Conclusion}
 
 \bibliographystyle{apacite}
 \bibliography{bibliography}	
