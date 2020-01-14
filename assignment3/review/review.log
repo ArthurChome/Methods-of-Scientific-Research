@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  6 JAN 2020 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  14 JAN 2020 22:05
 entering extended mode
 **./review.tex
 (review.tex
@@ -349,18 +349,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/chome/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 70.
+(Font)              <7> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 70.
- (review.bbl [2]) [3] (review.aux) ) 
+(Font)              <5> on input line 72.
+ [2] (review.bbl) [3] (review.aux) ) 
 Here is how much of TeX's memory you used:
  5407 strings out of 492946
  82939 string characters out of 3126267
- 172653 words of memory out of 3000000
+ 173653 words of memory out of 3000000
  9237 multiletter control sequences out of 15000+200000
  8101 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,38p,1019b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,38p,1263b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/chome/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chome/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chome/Ap
@@ -370,7 +370,7 @@ ers/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6
 nts/cm/cmr7.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb><C:/Users/chome/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on review.pdf (3 pages, 95688 bytes).
+Output written on review.pdf (3 pages, 97385 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
